@@ -4,6 +4,6 @@ tx -t1 YunlinSans-Bold.ttf YunlinSans-Bold.pfa
 
 mergeFonts -cid cidfontinfo.info YunlinSans-Bold.raw YunlinSans-Bold-glyf2cid.map YunlinSans-Bold.pfa
 
-makeotf -r -nS -f YunlinSans-Bold.raw -o YunlinSans-Bold-nS.otf -fi cidfontinfo.info -mf FontMenuNameDB.menu -ff features.fea -b -addn -adds -sans -cs 25 -ch YunlinSans-Bold-UTF32-H
+makeotf -r -nS -f YunlinSans-Bold.raw -o YunlinSans-Bold-nS.otf -fi cidfontinfo.info -mf FontMenuNameDB.menu -ff features.fea -addn -adds -sans -cs 25 -ch YunlinSans-Bold-UTF32-H
 
 otfccdump YunlinSans-Bold-nS.otf | otfccbuild -o YunlinSans-Bold.otf -s -O1 --keep-average-char-width --keep-unicode-ranges --keep-modified-time --subroutinize
