@@ -1,0 +1,14 @@
+简体区：
+Chinese People's Republic of China 0x804
+Chinese Singapore 0x1004
+
+繁体区：
+Chinese Hong Kong S.A.R. 0xC04
+Chinese Macao S.A.R. 0x1404
+Chinese Taiwan 0x404
+
+日语区：
+Japanese Japan 0x411
+雲林呉竹体
+レギュラー
+ボールド

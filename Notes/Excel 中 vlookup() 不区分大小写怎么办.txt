@@ -1,0 +1,7 @@
+=VLOOKUP(E2,$A$2:$B$30179,2,FALSE)
+
+的区分大小写版本对应为：
+
+=INDEX($B$2:$B$30179,MATCH(TRUE,EXACT($A$2:$A$30179,E2),0))
+
+这个公式是一个数组，要使用 Ctrl+Shift+Enter 为它加上大括号使其生效。

@@ -1,0 +1,9 @@
+perl cmap-tool.pl < YunlinSans-Regular.cidmap > YunlinSans-Regular-UTF32-H
+
+tx -t1 YunlinSans-Regular.ttf YunlinSans-Regular.pfa
+
+mergeFonts -cid cidfontinfo.info YunlinSans-Regular.raw YunlinSans-Regular-glyf2cid.map YunlinSans-Regular.pfa
+
+makeotf -r -nS -f YunlinSans-Regular.raw -o YunlinSans-Regular-nS.otf -fi cidfontinfo.info -mf FontMenuNameDB.menu -ff features.fea -osbOn 6 -addn -adds -sans -cs 25 -ch YunlinSans-Regular-UTF32-H
+
+otfccdump YunlinSans-Regular-nS.otf | otfccbuild -o YunlinSans-Regular.otf -s -O1 --keep-average-char-width --keep-unicode-ranges --keep-modified-time --subroutinize

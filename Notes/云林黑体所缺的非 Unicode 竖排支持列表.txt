@@ -1,0 +1,23 @@
+在使用下表之前，请先用 Hiragino Sans GB W3/6 将云林黑体的 Unicode 部分补完。
+
+以下 CID 均取自 Hiragino Sans GB W3/6：
+cid7704
+cid7705
+cid7706
+cid7707
+cid7708
+cid7709
+cid7710
+cid7711
+cid22394
+
+分别对应以下字符：
+uni301C.vert
+uni2016.vert
+uni3013.vert
+uniFF0E.vert
+uniFF1D.vert
+uniFF3B.vert
+uniFF3D.vert
+uniFFE3.vert
+uni30FC.vert
