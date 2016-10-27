@@ -11,3 +11,11 @@ del YunlinSans-Regular-nS.otf
 del YunlinSans-Regular-UTF8-H
 del YunlinSans-Regular-UTF16-H
 del YunlinSans-Regular-UTF32-H
+
+del cidfontinfo.info
+del features.fea
+del FontMenuNameDB.menu
+del YunlinSans-Regular.cidmap
+del YunlinSans-Regular-glyf2cid.map
+del YunlinSans-Regular.ttf
+del Regular_Build.bat
